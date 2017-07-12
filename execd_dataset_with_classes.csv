@@ -1,0 +1,683 @@
+"56", "# print sum(set(list(range(0, 1000, 3)) + list(range(0, 1000, 5))))
+", "1"
+"42", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+3*333*334/2 + 5*200*201/2 - 15*66*67/2", "1"
+"22", "# x = sum(set(list(range(0, 1000, 3)) + list(range(0, 1000, 5))))
+# print x", "1"
+"43", "      ", "1"
+"60", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+#	for num in range(1000):
+#		print x", "1"
+"61", "# In Python, the code
+#
+#     for letter in ['3', '5']:
+#         print x
+#
+# prints:
+# for num in range(1000):
+  
+ 
+  ", "1"
+"62", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+", "1"
+"49", "# print x=range(1000)", "1"
+"52", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+number = 10
+def multiplesOfThreeOrFiveBelow(number):
+	  threes = 3 * (number % 3)
+	  fives = 5 * (number % 5)
+	  print number", "5"
+"53", "# In Python, the code
+#
+#     for letter in ['3', '5']:
+#         print x
+#
+# prints:
+#
+#     3
+#     5
+# for num in range(1000):
+  
+ 
+  ", "1"
+"24", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+number = 10
+def multiplesOfThreeOrFiveBelow(number):
+	  print number", "5"
+"25", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+", "1"
+"26", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+#", "1"
+"27", "
+end = 1000
+
+def Solution01():
+    '''
+        Solved by brute force
+        #OPTIMIZE
+    '''
+    sum = 0
+    for i in range(3, end):
+        if isMultiple(i):
+            sum += i 
+    print(sum)
+
+def isMultiple(i):
+    return (i % 3 == 0) or (i % 5 == 0)
+  
+  ", "1"
+"20", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+
+# prints:
+#
+#     a
+#     b
+
+def sum_factors_of_n_below_k(k, n):
+    m = (k-1) // n
+    return n * m * (m+1) // 2
+
+def solution_01():
+    return (sum_factors_of_n_below_k(1000, 3) + 
+            sum_factors_of_n_below_k(1000, 5) - 
+            sum_factors_of_n_below_k(1000, 15))", "6"
+"21", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+#	for num in range(1000):
+#		print number", "1"
+"48", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     3
+#     5
+# for num in range(1000):
+  
+ 
+  ", "1"
+"23", "# 
+#
+#     for num in range(1000):
+# print number
+# 
+
+
+  ", "1"
+"46", "# In Python, the code
+#
+#     for numbers in ['x % 3', 'x % 5']:
+#         print x
+#
+# prints:
+# for num in range(1000):5 list[3,4,5]
+  
+ 
+  ", "1"
+"47", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+# for num in range(1000):", "1"
+"44", "# print range(1000)", "1"
+"45", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+1000 % 7
+  ", "1"
+"28", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints: x
+#
+#     a
+#     b
+
+# for num in range(1000):
+
+  
+", "1"
+"29", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+201*100*5+333*167*3-15*33*67", "1"
+"40", "'print x'", "1"
+"41", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+# for num in range(1000): x
+
+  
+", "1"
+"1", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+#	for num in range(1000):
+#		print x", "1"
+"0", "", "1"
+"3", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+#	for num in range(1000):
+#		print range", "1"
+"2", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+2+2", "1"
+"5", "import os", "1"
+"4", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+def susu():
+  for num in range(1000):
+	if not number % 3 or not number % 5:
+	  print sum(susu())", "2"
+"7", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+3 * 333 * 334 / 2 + 5 * 200 * 201 / 2", "1"
+"6", "# In Python, the code
+#
+#     for letter in ['x % 3', 'x % 5']:
+#         print x
+#
+# prints:
+# for num in range(1000):
+  
+ 
+  ", "1"
+"9", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+number = 10
+def multiplesOfThreeOrFiveBelow(number):
+	  threes = 3 * (number % 3)
+	  fives = 5 * (number % 5)
+	  print threes + fives", "5"
+"8", "'''
+If we list all the natural numbers below 10 that are multiples of 3 or 5, 
+we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000.
+'''
+
+end = 1000
+
+def Solution01():
+    '''
+        Solved by brute force
+        #OPTIMIZE
+    '''
+    sum = 0
+    for i in range(3, end):
+        if isMultiple(i):
+            sum += i 
+    print(sum)
+
+def isMultiple(i):
+    return (i % 3 == 0) or (i % 5 == 0)", "6"
+"18", "# 
+#
+#     for num in range(1000):
+# print 5
+# 
+
+
+  ", "1"
+"39", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+#for num in range(1000):", "1"
+"38", "
+end = 1000
+
+def Solution01():
+
+    sum = 0
+    for i in range(3, end):
+        if isMultiple(i):
+            sum += i 
+    print sum
+
+def isMultiple(i):
+    return (i % 3 == 0) or (i % 5 == 0)
+  
+  ", "5"
+"59", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+#	for num in range(1000):", "1"
+"14", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+def susu():
+  for num in range(1000):
+	if not num % 3 or not num % 5:
+	  print sum(susu())", "2"
+"11", "1000/3
+  ", "1"
+"10", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+#for num in range(1000):
+1001*500*3
+  ", "1"
+"13", "help('modules')", "1"
+"12", "# 
+#
+#     for num in range(1000):
+# print x
+# 
+
+
+  ", "1"
+"15", "# In Python, the code
+#
+#     for numbers in ['x % 3', 'x % 5']:
+#         print x
+#
+# prints:
+# for num in range(1000):
+  
+ 
+  ", "1"
+"58", "# 
+#
+#     for num in range(1000):
+# print num
+# 
+
+
+  ", "1"
+"17", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+list = [1,2,3]
+list", "1"
+"16", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+
+# prints:
+#
+#     a
+#     b
+
+x = 3*333*167 + 5*100*201 - 15 * 33*67", "1"
+"19", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+# for num in range(1000):
+#  x % 5 = 0
+#    print x", "1"
+"32", " 
+
+  
+", "1"
+"31", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+  ", "1"
+"30", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print lette
+#
+# prints:
+#
+#     a
+#     b
+
+def sum_of_multiples_of_3_and_5(number):
+    sum = 0
+    for i in xrange(number):
+        if i % 3 == 0 or i % 5 == 0:
+            sum += i
+    return sum", "5"
+"51", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+# for num in range(1000):
+# x%5
+# print x", "1"
+"36", "# In Python, the code
+#
+#     for letter in ['a', 'b']: ['3', '5']
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+# for num in range(1000): print x
+
+  
+", "1"
+"35", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+end = 1000
+
+def Solution01():
+    '''
+        Solved by brute force
+        #OPTIMIZE
+    '''
+    sum = 0
+    for i in range(3, end):
+        if isMultiple(i):
+            sum += i 
+    print(sum)
+
+def isMultiple(i):
+    return (i % 3 == 0) or (i % 5 == 0)", "6"
+"34", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+def euler():
+	three = 3
+	five = 5
+	keep = []
+	while three < 1000:
+		keep.append(three)
+		three = three + 3
+	while five < 1000:
+		if five not in keep:
+			keep.append(five)
+		five = five + 5
+	for e in keep:
+	  print e", "4"
+"33", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+# for num in range(1000):
+#  print num 
+  
+#  prints: 
+#	3 % 1000
+#	5 % 1000
+	
+#	print x", "1"
+"55", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+def Solution01():
+  sum = 0
+  for num in range(10):
+  	if isMultiple(num):
+  		sum += num 
+  print sum
+
+def isMultiple(num):
+  return (num % 3 == 0) or (num % 5 == 0)", "5"
+"37", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+# for num in range(1000): print x
+
+  
+", "1"
+"54", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+def multiples(m, count):
+    for i in range(0,count*m,m):
+        print(i)", "5"
+"57", "# sum(set(list(range(0, 1000, 3)) + list(range(0, 1000, 5))))", "1"
+"50", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+# for num in range(1000):
+# x % 5
+# print x", "1"
