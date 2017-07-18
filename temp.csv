@@ -1,0 +1,2196 @@
+"658", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+
+suma = 0
+num = 1
+
+for num in range(1000):
+  
+  if (3 * num) < 10:
+    suma = suma + (3 * num)
+    	
+  if (5 * num) < 10:
+    suma = suma + (5 * num)
+    	
+print ('la suma de los múltiplos de 3 y 5 menores que ', num, 'es ', suma)
+
+#print (suma)"
+"659", "for num in range(10):
+	print (num / 5)*5 +(num / 3)*3
+"
+"660", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  num % 3 
+  print num"
+"661", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  num*3 < 1000
+  
+  "
+"662", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+total =0
+for num in range(10):  
+  if (num%3==0 | num%5==0 | num<1000):
+  	total=total+num
+print total"
+"663", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  print num 
+  "
+"664", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+sum=0
+for num in range(1000):
+  if num%5==0 or num%3==0:
+	sum+=num
+print sum"
+"665", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+def multiplesOfThreeOrFiveBelow(number):
+	  threes = 3 * (number % 3)
+	  fives = 5 * (number % 5)
+	  print fives
+	  
+multiplesOfThreeOrFiveBelow(10)"
+"666", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+num = 1;
+x=0;
+for num in range(1000):
+  if num<1000:
+	if num%3==0:
+		 x+=num;
+	if num%5==0:
+		 x+=num;
+
+print x;"
+"667", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  rem = num%7
+  print rem"
+"668", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+    x = num % 3
+    y = num % 5
+for letter in [x, y]:
+    print letter"
+"669", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  1% 7"
+"670", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  
+  x= 1000 % 70
+  print x"
+"671", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0;
+for num in range(1000):
+  if ((num%3==0)|(num%5==0)):
+	sum=sum+num;
+	print sum;
+	
+	
+	
+	
+	"
+"672", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+x = 0
+for num in range(10):
+	if num % 3 == 0:
+		x = x + num
+	if num % 5 == 0:
+	  	x = x + num
+print num
+	"
+"673", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  print num
+  print num % 5
+  print num % 3"
+"674", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+a = 0
+
+for num in range(1,10):
+  if num % 3 == 0:
+  	a = a + num
+	print "Num is: ",num,", a is: ",a
+  if num % 5 == 0:
+	a = a + num
+	print "Num is: ",num,", a is: ",a
+	
+print a"
+"675", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000): 
+  if num % 3 : 
+	print num"
+"676", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for x in range(10):
+  x%3
+  y%5
+  
+print x+y
+  
+  
+"
+"677", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+o = object()
+
+print(o)
+  "
+"678", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+
+# prints:
+#
+#     a
+#     b
+sum=0
+for num in range(1000):
+  a = num%3
+  b = num%5
+  if a == 1:
+	sum = sum + a
+  if b==1:
+	sum = sum + b
+
+print sum"
+"679", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+
+for num in range(10):
+  a = num % 3
+  b = num % 5
+  c += a + b
+  print c"
+"680", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10): 
+  	print 10
+  "
+"681", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  x % 3 
+  print x"
+"682", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+sum_num=0
+for num in range(1000):
+  if(num%5==0,num%7==0): sum_num=sum_num+num
+print sum_num"
+"683", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for num in range(1000):
+  if num % 3 == 0:
+    sum += num;
+  elif num % 5 == 0:
+    sum = sum + num;
+  
+print sum  "
+"684", "#In Python, the code
+
+#for letter in ['a', 'b']:
+ # print letter
+
+#prints:
+
+kolme = 0
+viisi = 0
+
+for num in range(10):
+  if (num % 5 == 0) :
+	viisi = viisi + num
+	print "viisi = ", viisi
+  if (num % 3 == 0) :
+	kolme = kolme + num
+	print "kolme = ", kolme
+	
+tulos = viisi + kolme
+print tulos
+	"
+"685", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+sum=0
+for num in range(1000):
+  if (num % 3 == 0) or (num % 5 ==0):
+	sum += num
+
+print sum"
+"686", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for num in range(10):
+	if (num % 5 == 0) | (num % 3 == 0):
+		sum = sum + num
+print sum"
+"687", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+sum = 0;
+for num in range(1000):
+  if num % 3 == 0:
+  	sum += num
+
+  if num % 5 == 0:
+  	sum += num
+
+print sum
+  "
+"688", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000): 
+  
+  x=70%1000
+  print x"
+"689", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     A
+#     B
+
+for num in range(1000):3,5"
+"690", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#	
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for num in range(1000): 
+	if (num % 3 == 0) or (num % 5 ==0):
+		sum = sum + num
+
+print sum"
+"691", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+
+# prints:
+#
+#     a
+#     b
+a = 0
+b = 0
+for num in range(15):
+  if num % 15 == 0:
+	a += num
+  elif num % 3 == 0:
+	b += num
+  elif num % 5 == 0:
+	b += num
+	
+print b
+	
+	  
+"
+"692", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if (num%3 == 0 or num%5==0):
+  	print num"
+"693", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000): x % 3
+for num in range(1000): x % 5"
+"694", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+sum = 0
+for num in range(1000):
+  if (num % 3 == 0 or num & 5 == 0):
+  	sum+=num
+print sum"
+"695", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+b = 0
+for num in range(10):
+  print num"
+"696", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+sum=0
+
+for num in range(1000):
+  if (num%3)==0:
+	sum += num
+  if (num%5)==0 and (num%3)!=0:
+	sum += num
+	
+print(sum)"
+"697", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  total = 0
+  if (num % 3) == 0:
+  	total = total + num
+	print total
+  elif (num % 5) == 0:
+	total = total + num
+	print total
+	
+"
+"698", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+count = 0
+for num in range(1000):
+  if num % 3 == 0:
+	count += num
+  if num % 5 == 0:
+	count += num
+  if num > 15 and (num % 3) % 5 == 0:
+	print num
+	pass
+print count"
+"699", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000): 
+  
+  x=1000%10
+  print x"
+"700", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+x = 0
+for num in range[3,10]:
+  	if num%3 == 0 or num%5 == 0:
+		x = x + num
+		print x"
+"701", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+num = 0
+total = 0
+for num in range(1000):
+  if (num % 5 == 0) or (num % 3 == 0):
+	total = total + num
+	
+	
+print total 
+  "
+"702", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+ret = 0;
+for num in range(10):
+  if (num % 3 == 0) or (num % 5 == 0):
+   ret = ret + num;
+	
+print num"
+"703", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  		print num"
+"704", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+result = 0;
+for num in range(1000):
+ result = num % 3
+ print result"
+"705", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+number = 10
+def multiplesOfThreeOrFiveBelow(number):
+	  threes = 3 * (number % 3)
+	  fives = 5 * (number % 5)
+	  print threes + fives"
+"706", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  
+  x = 30 % 30
+  print x"
+"707", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if num % 5 == 0:
+  	print num
+  elif num%3 == 0:
+  	print num
+  
+  
+	"
+"708", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+mytotal=0
+for num in range(10):
+  if(num > 0):
+    if num % 3 == 0 or num % 5 ==0:
+	  mytotal=mytotal+num
+print mytotal"
+"709", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for num in range(1000):
+  if num % 3 == 0 or num % 5 == 0:
+	sum += num
+
+print sum"
+"710", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# print
+#
+#     a
+#     b
+sum = 0
+max = 1000
+for num in range((max-1)/3):
+	sum += (num+1)*3
+
+for num in range((max-1)/5):
+	if x % 3 > 0:
+		sum += (num+1)*5
+	
+print sum"
+"711", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+   nums = set()
+   if num % 3:
+       nums.add(num)
+   if num % 5:
+       nums.add(num)
+
+while nums:
+  sum += nums.pop()
+
+print sum"
+"712", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  a = 5 % 10
+  print a 
+	
+
+"
+"713", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#print letter
+# prints:
+#
+#     a
+#     b
+sum = 0
+for num in range(1000):
+  if (num % 3 == 0) and (num % 5 == 0):
+  		sum += num
+print sum"
+"714", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+nums = set()
+
+for num in range(1000):
+   if num % 3 == 0:
+       nums.add(num)
+   if num % 5 == 0:
+       nums.add(num)
+
+while nums:
+  sum += nums.pop()
+
+print sum"
+"715", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+
+for num in range(10):
+  if (num % 3 == 0):
+  	sum = sum + num
+
+
+	
+print sum"
+"716", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for num in range(1000):
+  if num % 3 == 0 or num % 5 == 0:
+  	sum += num
+
+print sum"
+"717", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+ttl = 0
+for num in range(2, 10):
+  print "Num is: ", num
+  if ((num % 3) == 0) or ((num % 5) == 0):
+	ttl = ttl + num
+	print "Using: ", num, "Totle = ", ttl
+
+print num
+"
+"718", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  print range(7) 
+  "
+"719", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+total = 0
+for num in range(1000):
+  if num % 3 == 0 or num % 5 == 0:
+  	total = total + num
+print total"
+"720", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+ttl = 0
+for num in range(2, 1000):
+  msg = "Num is: " + num
+  if ((num % 3) == 0) or ((num % 5) == 0):
+	ttl = ttl + num
+	msg = msg + " Using: " + num + "Totle = " + ttl
+  print msg
+  
+print ttl
+"
+"721", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for num in range(1000):
+  if num % 3 == 0 or num % 5 == 0:
+  	sum += num
+  
+print sum"
+"722", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if num % 3 == 0 and num % 3 == 0:
+	print num
+"
+"723", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for num in range(1000):
+  if num%3 == 0 or num%5 == 0:
+	sum += num
+	
+print sum"
+"724", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+t = 10
+summm = sum(range (0, t, 3)) + sum(range (0, t, 5)) - sum(range (0, t, 15))
+print summm"
+"725", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+	print num"
+"726", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+sum =0
+for num in range(1000):
+ if (num%5==0) or (num%3==0):
+  sum=sum+num
+
+print sum"
+"727", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(x%7): print x"
+"728", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+
+for num in range(1000):
+  if (num%3 == 0 or num%5 == 0):
+	sum += num
+  if (num%15 == 0):
+	sum -= num
+print sum"
+"729", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  	if num % 5 == 0 | num % 3 == 0:
+		sum += num
+
+print sum
+  	
+"
+"730", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+counter = 0
+
+print 'Hi'
+print ""
+print "counter: " + counter
+print ""
+
+for num in range(1000):
+  print "num: " + num
+  
+  if num % 3 == 0 or num % 5 == 0:
+	counter += num
+	print "counter: " + counter
+
+print ""
+print "Final: " + counter
+print ""
+print "End""
+"731", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+sum=0
+
+for num in range(1000):
+  if num%3==0 or num%5==0:
+	sum+=num
+	
+print (sum)"
+"732", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  if num!=0 and (num%3==0 or num%5==0):
+	print num"
+"733", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  
+  print num"
+"734", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+a = 0
+for num in range(1000):
+  if num * 3 < 1000:
+    a = a + num * 3
+  
+b = 0
+for num in range(1000):
+  if num * 5 < 1000:
+    b = b + num * 5
+
+print a, b, a + b"
+"735", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for x in range(1000):
+	if x % 3 == 0 or x % 5 == 0:
+		sum += x
+print sum"
+"736", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+
+for num in range(10):
+  a = range % 3
+  b = range % 5
+  c = a + b
+  print c"
+"737", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  x = num % 7
+  print x"
+"738", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+num = 0
+for num in range(10):
+  sum = 0
+  if (num % 3 == 0) or (num % 5 == 0):
+  	sum += num
+	
+print sum"
+"739", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+num=0
+for num in range(1000):
+  if (not num%3) or (not num%5):
+    n += num
+    print n"
+"740", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+x = 0
+for num in range(1000):
+  if num%3 == 0 | num%5==0:
+	x += num
+print x
+	"
+"741", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if num % 3 ==0 or num % 5 ==0: 
+    suma = suma + num
+print suma"
+"742", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if ((num % 3 == 0) or (num % 5 == 0)): 
+  	print num"
+"743", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+s=0
+s = sum([i for i in range(1000) if (i % 3 == 0 or i % 5 == 0)])
+print s"
+"744", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#	
+# prints:
+# 
+#     a
+#     b
+x=0
+
+for num in range(10):
+  if (num%3==0 or num%5==0):
+		x = x + num
+print x
+ 
+    "
+"745", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  print 23 % 3"
+"746", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+answer = 0
+for num in range(1000):
+  if 0 == num % 3 or 0 == num % 5:
+	answer += num
+print answer"
+"747", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  	if num % 5 == 0 | num % 3 == 0:
+		sum += num
+		print sum
+  	
+"
+"748", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for a in range(1000):
+  a % 3
+  
+for letter in ['a']:  
+	print a
+"
+"749", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  100 % 3
+  print x"
+"750", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+tot = 0
+for num in range(10):
+   if num%3: print num; tot = tot+ num
+   if num%5: print num; tot = tot +num
+print tot	  "
+"751", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+s = 0
+
+for num in range(1000):
+  if num%5 == 0 or num%3 == 0:
+	s += num
+print s"
+"752", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sums = 0
+for num in range(1000):
+  if num%3 == 0 or num%5 == 0:
+	sums += num
+print sums"
+"753", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letterf
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):3 % 5
+print x
+ 
+  "
+"754", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+x=0
+
+for num in range(1000):
+  if num % 3 == 0:
+   x=x+num
+for num in range(1000):
+	if num % 5 == 0 and num % 3 != 0: 
+		x=x+num
+
+print x
+
+  "
+"755", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if ( not num % 3  ):
+    x=x+num
+  print x"
+"756", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+total = 0
+for num in range(1000):
+  if not num % 3 or not num % 5:
+	total += num
+print total"
+"757", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  print 10
+  "
+"758", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if (num % 3) == 0 :
+    print num
+"
+"759", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for num in range(1000):
+ if num%3 == 0:
+  sum += num
+# if num%5 == 0:
+#  sum += num
+print sum"
+"760", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  x = 0
+  if num % 3 == 0:
+	x = x + num
+  if num % 5 == 0:
+	x = x + num
+
+print x"
+"761", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+s = 0;
+for num in range(1000):
+	if num%3 == 0 or num%5 == 0:
+	  	s += num
+print s"
+"762", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+answer = 0
+for num in range(9):
+	  answer = answer + (num % 3) + (num % 5)
+
+print answer
+	  "
+"763", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  a == 0
+  if num % 10 == 3:
+	num = a + num
+	print num"
+"764", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  print (str(num))"
+"765", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for num in range(100):
+#  if num % 3 == 0 and num % 5 == 0:
+#	sum += num
+#  elif num % 3 == 0:
+  if num % 3 == 0:
+	sum += num
+  elif num % 5 == 0:
+	sum += num
+  else: print "no bonus"
+print sum"
+"766", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+for num in xrange(10):
+  print num
+  if (num%3 == 0 | num%5 == 0):
+	sum += num
+	
+print sum"
+"767", "import PyV8
+ctx = PyV8.JSContext()
+ctx.enter()
+
+js = """
+function escramble_758(){
+var a,b,c
+a='+1 '
+b='84-'
+a+='425-'
+b+='7450'
+c='9'
+document.write(a+c+b)
+}
+escramble_758()
+"""
+
+print ctx.eval(js.replace("document.write", "return "))"
+"768", "def is_divisible(num, divisors):
+  ar = []
+  if any([num%d==0 for d in divisors]): return True
+  return False
+
+nums = set()
+divisors = (3,5)
+for num in range(1, 1000):
+  if is_divisible(num, divisors): 
+	nums.add(num)
+	
+print sum(nums)"
+"769", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if num % 3 == 0:
+    numsum = numsum + num
+  elif num % 5 == 0:
+      numsum = numsum + num
+
+print numsum"
+"770", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+sum = 0
+
+for num in range(1, 10):
+	if num % 3 == 0:
+  		sum = sum + num
+	elif num % 5 == 0:
+	  	sum = sum + num
+
+print sum"
+"771", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+total = 0
+for num in range(23):
+  if num % 3 == 0 or num % 5 == 0:
+	total += num
+print total
+"
+"772", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+    print num 
+    "
+"773", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  rv = 0
+  for n in (3,5):
+	if num % n == 0:
+	  rv = rv + (n * num)
+  print rv"
+"774", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+
+# prints:
+#
+#     a
+#     b
+
+for num in range(1,1000):
+  print (num)
+  if num % 3 == 0 or num % 5 == 0:
+	sum = sum + num
+print (sum)"
+"775", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  5 % 10
+  3 % 10
+  print x"
+"776", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  
+    if num % 3 == 0:
+        print 'yes'
+    else:
+        print 'no'
+  "
+"777", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if num%5==0:
+	x+=num
+print x"
+"778", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000): 
+	if num%3==0:
+	  print num"
+"779", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+x = 0
+for num in range(10):
+  if num % 3 == 0:
+  	x=x+num
+	print num
+  if num % 5 == 0:
+    x=x+num
+    print num
+	"
+"780", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#priunt
+# prints:
+#
+#     a
+#     b
+
+for num in range(10%3):
+  print num"
+"781", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+# prints:
+#
+#     a1
+#     b1000
+
+for num in range(1000):
+  print x"
+"782", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  tre = 1000 / 3
+  
+print tre
+  "
+"783", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for letter in range('a', 'z'):
+  print letter"
+"784", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  c=num%3
+  if c==0 :
+  
+    c+=c 
+  
+  print c"
+"785", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+answer = 0
+for num in range(10):
+  if num%3 == 0:
+  	answer += num
+  elif num%5 == 0:
+    answer += num
+
+print answer"
+"786", "for num in range (1,1000):
+  if 1000%num == 0:
+	print num
+	total = total + num
+print ("----")
+print total
+"
+"787", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  x = 10//3
+  y = 10//3
+  z = 10//15
+  a = (3+9)*x/2+(5)*y/2-(15+990)*z/2
+  print a"
+"788", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  x = 3%num
+  y = 5%num
+  print x + y"
+"789", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+
+# prints:
+#
+#     a
+#     b
+answer = 0
+diff = 0
+for num in range(1000):
+  if num % 3 == 0:
+	if num % 15 == 0:
+	  diff += num
+	answer += num
+  elif num % 5 == 0:
+	answer += num
+
+print (answer - diff)
+	
+	  
+
+	"
+"790", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#	
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if 0 == num%3:
+    sum+=num;
+  elif 0 == num%5:
+  	sum+=num;
+print sum"
+"791", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(10):
+  sum =0
+  mult3 = 0
+  mult3 = mult3 + 3 * sum
+  sum = sum +1
+  print mult3"
+"792", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+x = 0
+for num in range(1000):
+  a = 3*num
+  b = 5*num
+  if a < 1000:
+  	x = x + a
+  if b < 1000:
+  	x = x + b
+print a
+print b
+print x"
+"793", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+x = 0
+for num in range(10):
+    if num % 3 == 0:
+	    x = num
+	    print x
+print num
+    "
+"794", "x = int
+num = int
+
+for num in range(1000):
+  if num % 3 ==0 or num % 5==0:
+	x=x+num
+	
+print(x)"
+"795", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+x = 0
+
+for num in range(1000):
+  if num % 3 == 0 or num % 5 ==0:
+	if num % 5 != num % 3:
+	  x += num
+	
+print x
+	"
+"796", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):
+  if (num * 3 < 1000) or (num * 5 < 1000):
+	print num
+	"
+"797", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#print
+# prints:
+#
+#     a
+#     b
+
+for num in range(1000):print num"
+"798", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+x=0
+for num in range(10):
+  if num%3==0 or num%5==0:
+  	x=x+num
+print x"
+"799", "# In Python, the code
+#
+#     for letter in ['a', 'b']:
+#         print letter
+#
+# prints:
+#
+#     a
+#     b
+
+mySum = 0
+for num in range(1000):
+  if num % 3 == 0:
+	 mySum = mySum + num
+  else:
+	 if num % 5 == 0:
+	 	mySum = mySum + num
+
+print mySum"
