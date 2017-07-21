@@ -1,7 +1,7 @@
 import json
 import utils
 
-def hash_generator(kw_to_id, *kw):
+def hash_generator(kw_to_id, kw):
 	hash_val = 0
 	n = len(kw) - 1
 
@@ -14,7 +14,7 @@ def hash_generator(kw_to_id, *kw):
 
 def k_gram_hash_generator(token_program, kw_to_id, K):
 	generated_hashes = [
-		hash_generator(kw_to_id, *token_program[i: i+K])
+		hash_generator(kw_to_id, token_program[i: i+K])
 		for i in xrange(0, len(token_program) - K)]
 	return generated_hashes
 
@@ -95,7 +95,6 @@ def doc_fingerprints(analyzed_data, T=5, K=3):
 
 
 def get_top_similars(analyzed_data, top=3):
-	top_similar = 3
 	for program_id_1 in analyzed_data:
 		overlaps = []
 		for program_id_2 in analyzed_data:
@@ -104,7 +103,7 @@ def get_top_similars(analyzed_data, top=3):
 				analyzed_data[program_id_2]['fingerprint'])
 			overlaps.append((program_id_2, overlap))
 		top_overlaps = sorted(
-			overlaps, key=lambda e: e[1], reverse=True)[:top_similar]
+			overlaps, key=lambda e: e[1], reverse=True)[:top]
 		analyzed_data[program_id_1]['top_similar'] = top_overlaps
 	return analyzed_data
 

@@ -4,11 +4,12 @@ import utils
 import winnowing
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn import svm
+from sklearn.model_selection import GridSearchCV
 
 data = utils.read_file()
 T = 7
 K = 5
-top = 17 # 2 * no. of classes + no. of classes / 2.
+top = 3 # No. of classes / 2
 
 # Split data in train and cross validation sets.
 predict_data = {i: data[i] for i in data if i > 400}
@@ -48,27 +49,28 @@ Yp = np.array(
 missclassified_data = np.where(Y != Yp)[0]
 
 # Create a new dataset for missclassified points.
-programs = [data[pid]['source'] for pid in missclassified_data]
+programs = [data[pid]['source'] for pid in sorted(data.keys())]
 cv = CountVectorizer(tokenizer=utils.tokenizer, min_df=4)
 cv.fit(programs)
-program_vecs = cv.fit_transform(programs)
+program_vecs = cv.transform(programs)
 
 # Calculate bag of words vectorizer.
-for (i, pid) in enumerate(missclassified_data):
-	data[pid]['vector'] = program_vecs[i].todense()
+for (i, pid) in enumerate(sorted(data.keys())):
+	data[pid]['vector'] = program_vecs[pid].todense()
 
-train_data = [data[pid]['vector'] for pid in missclassified_data]
-train_result = [data[pid]['class'] for pid in missclassified_data]
+train_data = [data[pid]['vector'] for pid in data]
+train_result = [data[pid]['class'] for pid in data]
 Xt = np.array(train_data)
 Yt = np.array(train_result)
 
 # Fix X dims.
 Xt = np.squeeze(Xt)
 
-# Train SVM.
-clf = svm.SVC(C=5.5)
-clf.fit(Xt, Yt)
+sample_weight = np.ones(Xt.shape[0])
+sample_weight[missclassified_data] = 3
 
+clf = svm.SVC(C=5.5)
+clf.fit(Xt, Yt, sample_weight=sample_weight)
 cv_missclassified_points = []
 
 # Predict using KNN.

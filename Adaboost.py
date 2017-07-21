@@ -1,5 +1,6 @@
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn import ensemble
+from sklearn import svm
+from sklearn.ensemble import AdaBoostClassifier
 import numpy as np
 import utils
 
@@ -35,7 +36,7 @@ for k in range(450 / 50):
 	Xt = np.concatenate([X[end_cv:, :], X[:start_cv, :]])
 	Yt = np.concatenate([Y[end_cv:], Y[:start_cv]])
 	# Train and get the score.
-	clf = ensemble.RandomForestClassifier(n_estimators=25)
+	clf = AdaBoostClassifier(svm.SVC(probability=True, C=5.5), n_estimators=10)
 	clf.fit(Xt, Yt)
 	Yp = clf.predict(Xc)
 	metric_list.append(utils.calc_metrics(Yc, Yp))

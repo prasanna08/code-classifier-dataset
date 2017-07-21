@@ -3,6 +3,7 @@ import numpy as np
 import utils
 import winnowing
 import copy
+import math
 
 def get_kernel(analyzed_data):
 
@@ -15,7 +16,7 @@ def get_kernel(analyzed_data):
 			for b in Y:
 				B = analyzed_data[b[0]]['fingerprint']
 				sim = winnowing.get_program_similarity(A, B)
-				K[i][j] = sim
+				K[i][j] = math.exp(-(1.0 - sim)**2)
 				j += 1
 			i += 1
 		return K
