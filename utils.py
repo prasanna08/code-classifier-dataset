@@ -22,7 +22,7 @@ def get_tokens(program):
 def tokenizer(program):
 	token_program = []
 	for tid, tname in get_tokens(program):
-		if tid == token.N_TOKENS or tid == 54:
+		if tid == token.N_TOKENS or tid == 54 or tname.strip() == '':
 			continue
 		elif tid == token.NAME:
 			if tname in keyword.kwlist:
@@ -44,7 +44,7 @@ def winnowing_tokenize_data(analyzed_data, threshold=10):
 		for tid, tname in get_tokens(program):
 			# If tid is tokens.NAME then only add if it is a python keyword.
 			# Treat all variables same. Treat all methods same.
-			if tid == token.N_TOKENS or tid == 54:
+			if tid == token.N_TOKENS or tid == 54 or tname.strip() == '':
 				continue
 			elif (tid == token.NAME):
 				if tname in keyword.kwlist:
@@ -72,7 +72,7 @@ def winnowing_tokenize_data(analyzed_data, threshold=10):
 		program = analyzed_data[program_id]['source']
 		token_program = []
 		for tid, tname in get_tokens(program):
-			if tid == token.N_TOKENS or tid == 54:
+			if tid == token.N_TOKENS or tid == 54 or tname.strip() == '':
 				continue
 			elif tid == token.NAME:
 				if tname in keyword.kwlist:

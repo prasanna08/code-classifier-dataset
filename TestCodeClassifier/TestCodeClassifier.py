@@ -71,7 +71,7 @@ def _cv_tokenizer(program):
     """Tokenize Python program for CountVectorizer."""
     token_program = []
     for tid, tname in _get_tokens(program):
-        if tid == token.N_TOKENS or tid == 54:
+        if tid == token.N_TOKENS or tid == 54 or tname.split() == '':
             continue
         elif tid == token.NAME:
             if tname in keyword.kwlist:
@@ -96,7 +96,7 @@ def _generate_token_to_id(data, threshold=5):
         for tid, tname in _get_tokens(program):
             # If tid is tokens.NAME then only add if it is a python keyword.
             # Treat all variables and methods same.
-            if tid == token.N_TOKENS or tid == 54:
+            if tid == token.N_TOKENS or tid == 54 or tname.split() == '':
                 continue
             elif tid == token.NAME:
                 if tname in keyword.kwlist:
@@ -128,7 +128,7 @@ def _tokenize_data(data):
         program = data[program_id]['source']
         token_program = []
         for tid, tname in _get_tokens(program):
-            if tid == token.N_TOKENS or tid == 54:
+            if tid == token.N_TOKENS or tid == 54 or tname.split() == '':
                 continue
             elif tid == token.NAME:
                 if tname in keyword.kwlist:
