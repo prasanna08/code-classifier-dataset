@@ -15,7 +15,7 @@ def hash_generator(kw_to_id, kw):
 def k_gram_hash_generator(token_program, kw_to_id, K):
 	generated_hashes = [
 		hash_generator(kw_to_id, token_program[i: i+K])
-		for i in xrange(0, len(token_program) - K)]
+		for i in xrange(0, len(token_program) - K + 1)]
 	return generated_hashes
 
 

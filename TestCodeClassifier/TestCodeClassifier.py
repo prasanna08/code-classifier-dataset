@@ -163,7 +163,7 @@ def _k_gram_hash_generator(token_program, token_to_id, K):
     """Generate all k-gram hashes for tokenized program."""
     generated_hashes = [
         _hash_generator(token_to_id, token_program[i: i+K])
-        for i in xrange(0, len(token_program) - K)]
+        for i in xrange(0, len(token_program) - K + 1)]
     return generated_hashes
 
 
